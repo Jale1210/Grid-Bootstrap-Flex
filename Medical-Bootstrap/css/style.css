@@ -1,0 +1,52 @@
+:root { --mavi: #6bc2f1 }
+header { background: url('../img/headerbg.jpg') center/cover }
+header nav { background-color: rgba(255,255,255,.8) }
+
+.bg-mavi { background-color: var(--mavi)!important }
+.bg-gray  {background-color: #f1f1f1;}
+.bg-darkblue {background-color: #072035;}
+.text-mavi { color: var(--mavi)!important }
+.vh-50 { height: 50vh }
+
+#img1 { background: url('../img/img1.jpg') center/cover }
+#img2 { background: url('../img/img2.jpg') center/cover }
+#img1:hover, #img2:hover { opacity: .5 }
+#img1:hover p, #img2:hover p { visibility: visible!important}
+
+i{	color: var(--mavi);
+		font-size:2em;
+}
+#contact h1{font-size: 2em "Roboto" #413d4b;}
+.lineh {line-height:2em}
+
+
+.carousel-i{
+	margin: 30px 0 30px  0;
+	color:#fff;
+	font-size:2em;
+}
+
+.carousel-indicators img:hover {
+  position: relative;
+  display: block;
+  border: 1px solid white;
+  border-radius: 50%;
+  opacity: 1;
+  transform: scale(1.5);
+  z-index: 1;
+}
+.carousel-indicators div {
+	margin: 2px;
+	border-radius: 50%;
+}
+.carousel-item h2{font-size:1em;}
+.carousel-item h3{
+	font-size: .7em;
+	padding:20px 0 60px 0;
+}
+.wh{
+	width: 40px;
+	height:40px;
+	object-fit: cover;
+	margin:5px 0px 20px 0px;
+}
